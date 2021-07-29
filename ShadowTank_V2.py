@@ -1,10 +1,8 @@
 from PIL import Image
 
-#选择加密方式
 mode = ('None',"1032","1230","1302","2031","2301","2310","3012","3210","3210")
 key = mode[int(input("1~9"))]
 
-#对图片编码
 def encode():
     global key
     tank = Image.open("tank.png")
@@ -24,7 +22,6 @@ def encode():
             tank.putpixel((x,y),(NR,NG,NB,NA))
     tank.save("tank.png")
 
-#对图片解码
 def decode():
     global key
     tank = Image.open("tank.png")
