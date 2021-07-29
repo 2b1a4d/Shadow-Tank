@@ -5,3 +5,8 @@
 #数据存储位置 Data storage location
 
 ![un](https://user-images.githubusercontent.com/86673298/126858709-880ce1c2-de05-4b66-b991-d9b1953f23df.png)
+
+#低位数据加密 Low-bit data encryption
+
+![Uploading ST-P V2.png…]()
+
